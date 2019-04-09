@@ -1,6 +1,6 @@
 Feature: Fill the address bar 
 
-@Addressbar
+@Addressbar @smoke
 Scenario: User should fill the address bar 
 
 Given user should be on the orders part

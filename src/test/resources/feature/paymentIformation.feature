@@ -1,6 +1,6 @@
 Feature: User payment information 
 
-@paymentinfo
+@paymentinfo @smoke
 Scenario: User should put his/ her payment information in order to make order
 
 Given user should be on the order page 

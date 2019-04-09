@@ -1,6 +1,6 @@
 Feature: CheackAll tables 
 
-@chechall
+@chechall @smoke
 Scenario: User should check all the tables 
 
 Given user should login to the webpage with the valid credentials 

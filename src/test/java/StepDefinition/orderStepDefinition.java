@@ -50,6 +50,7 @@ public class orderStepDefinition {
 	    order.total.isDisplayed();
 		order.CalculateButton.click();
 		driver.close();
+		driver.quit();
 	}
 
 }

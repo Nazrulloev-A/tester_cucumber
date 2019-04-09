@@ -1,6 +1,6 @@
 Feature: user should uncheck all orders
 
-@unselect
+@unselect @smoke
 Scenario: user should uncheck all orders
 
 Given user should login to the page 

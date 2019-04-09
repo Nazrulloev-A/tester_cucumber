@@ -1,6 +1,6 @@
 Feature: Delete the previous orders and make the new one 
 
-@neworder
+@neworder @smoke
 Scenario: Make the new order 
 
 Given user should login to the order pages 

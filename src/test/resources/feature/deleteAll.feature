@@ -1,6 +1,6 @@
 Feature: User should select all and delete orders 
 
-@deleteAll
+@deleteAll @smoke
 Scenario: Check all orders then Delete All orders 
 
 Given user should be on the login page and select all

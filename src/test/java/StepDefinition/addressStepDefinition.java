@@ -62,6 +62,8 @@ public class addressStepDefinition {
 		address.City.sendKeys("Clivland");
 		address.State.sendKeys("OH");
 		address.Zip.sendKeys("123456");
+		driver.close();
+		driver.quit();
 		
 	}
 

@@ -62,6 +62,8 @@ public class PaymentStepDefinition {
 		payment.cardnumber.sendKeys("5523123456789010");
 		payment.ExDate.sendKeys("06/21");
 		payment.process.click();
+		driver.close();
+		driver.quit();
 	}
 
 

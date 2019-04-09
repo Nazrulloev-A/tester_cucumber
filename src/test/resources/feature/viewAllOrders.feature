@@ -1,6 +1,6 @@
 Feature: View all orders
 
-@viewOrder
+@viewOrder @smoke
 Scenario: user should view the order 
 
 Given user should make order

@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		
-		tags="@viewOrder",
+		tags="@smoke",
 		features ="/Users/abrahamben/Desktop/test/testersolution.com/src/test/resources",
 		glue="StepDefinition",
 		dryRun =false
